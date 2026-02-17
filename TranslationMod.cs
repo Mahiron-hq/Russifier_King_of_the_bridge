@@ -10,7 +10,7 @@ using System.IO;
 using System.Text.RegularExpressions;
 using System.Linq;
 
-[BepInPlugin("ru.translation.kingofthebridge", "Russian Translation", "2.0.0")]
+[BepInPlugin("ru.translation.kingofthebridge", "Russian Translation", "0.2")]
 public class TranslationMod : BaseUnityPlugin
 {
     private static TMP_FontAsset russianFont;
@@ -25,9 +25,16 @@ public class TranslationMod : BaseUnityPlugin
 
         Harmony harmony = new Harmony("ru.translation.kingofthebridge");
         harmony.PatchAll();
-        Logger.LogInfo("Русификатор загружен v2.0.0 FINAL");
+        Logger.LogInfo("Русификатор загружен v0.2 с поддержкой замены изображений (пиксельная графика)");
 
         Dictionary.LoadFromFile(Path.Combine(Paths.PluginPath, "translation.txt"), Logger);
+
+        // Загрузка маппинга и изображений
+        ImageReplacer.LoadImageMapping(Path.Combine(Paths.PluginPath, "image_mapping.txt"), Logger);
+        ImageReplacer.LoadImages(Path.Combine(Paths.PluginPath, "image"), Logger);
+
+        // ПРИНУДИТЕЛЬНАЯ замена всех уже существующих спрайтов
+        ImageReplacer.ReplaceAllSpritesInScene();
 
         string assetBundlePath = Path.Combine(Paths.PluginPath, "alagard-unicode-TMP");
         AssetBundle bundle = AssetBundle.LoadFromFile(assetBundlePath);
@@ -53,6 +60,7 @@ public class TranslationMod : BaseUnityPlugin
         }
 
         StartCoroutine(MonitorNewTextObjects());
+        StartCoroutine(MonitorNewImageObjects());
         StartCoroutine(SaveUntranslatedPeriodically());
         StartCoroutine(TMPMaxVisibleCharactersPatch.CleanupOldEntries());
     }
@@ -60,6 +68,9 @@ public class TranslationMod : BaseUnityPlugin
     private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
         ApplyFontToAllTMP();
+
+        // Принудительная замена изображений в новой сцене
+        ImageReplacer.ReplaceAllSpritesInScene();
     }
 
     private void ApplyFontToAllTMP()
@@ -100,6 +111,36 @@ public class TranslationMod : BaseUnityPlugin
                         }
                         EnableAutoSize(t);
                     }
+                }
+            }
+        }
+    }
+
+    private IEnumerator MonitorNewImageObjects()
+    {
+        yield return new WaitForSeconds(5f);
+
+        while (true)
+        {
+            yield return new WaitForSeconds(2f);
+
+            // Мониторинг SpriteRenderer
+            SpriteRenderer[] allSpriteRenderers = Resources.FindObjectsOfTypeAll<SpriteRenderer>();
+            foreach (SpriteRenderer sr in allSpriteRenderers)
+            {
+                if (sr != null && sr.gameObject.scene.IsValid())
+                {
+                    ImageReplacer.TryReplaceSprite(sr);
+                }
+            }
+
+            // Мониторинг UI.Image
+            Image[] allImages = Resources.FindObjectsOfTypeAll<Image>();
+            foreach (Image img in allImages)
+            {
+                if (img != null && img.gameObject.scene.IsValid())
+                {
+                    ImageReplacer.TryReplaceSprite(img);
                 }
             }
         }
@@ -833,5 +874,251 @@ public static class Dictionary
         }
 
         logger.LogInfo($"Загружено: {loadedCount} строк ({patternCount} паттернов, {parameterizedCount} параметризованных)");
+    }
+}
+
+// ==================== СИСТЕМА ЗАМЕНЫ ИЗОБРАЖЕНИЙ ====================
+
+public static class ImageReplacer
+{
+    private static Dictionary<string, string> imageMapping = new Dictionary<string, string>();
+    private static Dictionary<string, Sprite> loadedSprites = new Dictionary<string, Sprite>();
+    private static BepInEx.Logging.ManualLogSource logger;
+    private static HashSet<int> replacedObjects = new HashSet<int>();
+
+    public static void LoadImageMapping(string path, BepInEx.Logging.ManualLogSource log)
+    {
+        logger = log;
+
+        if (!File.Exists(path))
+        {
+            logger.LogWarning($"Файл маппинга изображений не найден: {path}");
+            return;
+        }
+
+        logger.LogInfo($"Загрузка маппинга изображений из: {path}");
+
+        string[] lines = File.ReadAllLines(path, System.Text.Encoding.UTF8);
+        int loadedCount = 0;
+
+        foreach (string line in lines)
+        {
+            if (string.IsNullOrWhiteSpace(line) || line.StartsWith("#"))
+                continue;
+
+            int separatorIndex = line.IndexOf('=');
+            if (separatorIndex == -1)
+                continue;
+
+            string originalName = line.Substring(0, separatorIndex).Trim();
+            string translatedFileName = line.Substring(separatorIndex + 1).Trim();
+
+            imageMapping[originalName] = translatedFileName;
+            loadedCount++;
+        }
+
+        logger.LogInfo($"Загружено {loadedCount} записей маппинга изображений");
+    }
+
+    public static void LoadImages(string imageFolderPath, BepInEx.Logging.ManualLogSource log)
+    {
+        logger = log;
+
+        if (!Directory.Exists(imageFolderPath))
+        {
+            logger.LogWarning($"Папка с изображениями не найдена: {imageFolderPath}");
+            return;
+        }
+
+        logger.LogInfo($"Загрузка переведённых изображений из: {imageFolderPath}");
+
+        string[] imageFiles = Directory.GetFiles(imageFolderPath, "*.png");
+        int loadedCount = 0;
+
+        foreach (string imagePath in imageFiles)
+        {
+            try
+            {
+                byte[] imageData = File.ReadAllBytes(imagePath);
+                Texture2D texture = new Texture2D(2, 2);
+
+                if (texture.LoadImage(imageData))
+                {
+                    // Отключаем фильтрацию для пиксельной графики
+                    texture.filterMode = FilterMode.Point;
+                    texture.anisoLevel = 0;
+
+                    // Создаём спрайт из текстуры
+                    Sprite sprite = Sprite.Create(
+                        texture,
+                        new Rect(0, 0, texture.width, texture.height),
+                        new Vector2(0.5f, 0.5f),
+                        32.0f
+                    );
+
+                    string fileName = Path.GetFileName(imagePath);
+                    loadedSprites[fileName] = sprite;
+                    loadedCount++;
+
+                    logger.LogInfo($"Загружено изображение: {fileName} ({texture.width}x{texture.height})");
+                }
+                else
+                {
+                    logger.LogError($"Не удалось загрузить текстуру из файла: {imagePath}");
+                }
+            }
+            catch (System.Exception e)
+            {
+                logger.LogError($"Ошибка загрузки изображения {imagePath}: {e.Message}");
+            }
+        }
+
+        logger.LogInfo($"Загружено {loadedCount} переведённых изображений");
+    }
+
+    public static Sprite GetReplacementSprite(string originalSpriteName)
+    {
+        if (string.IsNullOrEmpty(originalSpriteName))
+            return null;
+
+        // Проверяем, есть ли маппинг для этого спрайта
+        if (imageMapping.TryGetValue(originalSpriteName, out string translatedFileName))
+        {
+            // Проверяем, загружен ли переведённый спрайт
+            if (loadedSprites.TryGetValue(translatedFileName, out Sprite replacementSprite))
+            {
+                return replacementSprite;
+            }
+            else
+            {
+                logger?.LogWarning($"Переведённый спрайт не найден: {translatedFileName} для {originalSpriteName}");
+            }
+        }
+
+        return null;
+    }
+
+    // ПРИНУДИТЕЛЬНАЯ замена всех существующих спрайтов в сцене
+    public static void ReplaceAllSpritesInScene()
+    {
+        if (loadedSprites.Count == 0)
+        {
+            logger?.LogWarning("Нет загруженных изображений для замены");
+            return;
+        }
+
+        int replacedCount = 0;
+
+        // Замена в SpriteRenderer
+        SpriteRenderer[] allSpriteRenderers = Resources.FindObjectsOfTypeAll<SpriteRenderer>();
+        foreach (SpriteRenderer sr in allSpriteRenderers)
+        {
+            if (sr == null || sr.sprite == null) continue;
+            if (!sr.gameObject.scene.IsValid()) continue; // Пропускаем префабы
+
+            string spriteName = sr.sprite.name;
+            Sprite replacement = GetReplacementSprite(spriteName);
+
+            if (replacement != null)
+            {
+                sr.sprite = replacement;
+                replacedCount++;
+                logger?.LogInfo($"Заменён спрайт в SpriteRenderer: {spriteName} на объекте {sr.gameObject.name}");
+            }
+        }
+
+        // Замена в UI.Image
+        Image[] allImages = Resources.FindObjectsOfTypeAll<Image>();
+        foreach (Image img in allImages)
+        {
+            if (img == null || img.sprite == null) continue;
+            if (!img.gameObject.scene.IsValid()) continue;
+
+            string spriteName = img.sprite.name;
+            Sprite replacement = GetReplacementSprite(spriteName);
+
+            if (replacement != null)
+            {
+                img.sprite = replacement;
+                replacedCount++;
+                logger?.LogInfo($"Заменён спрайт в Image: {spriteName} на объекте {img.gameObject.name}");
+            }
+        }
+
+        logger?.LogInfo($"Принудительная замена завершена. Заменено спрайтов: {replacedCount}");
+    }
+
+    // Проверка и замена конкретного SpriteRenderer
+    public static void TryReplaceSprite(SpriteRenderer sr)
+    {
+        if (sr == null || sr.sprite == null) return;
+
+        int instanceID = sr.GetInstanceID();
+        if (replacedObjects.Contains(instanceID)) return;
+
+        string spriteName = sr.sprite.name;
+        Sprite replacement = GetReplacementSprite(spriteName);
+
+        if (replacement != null)
+        {
+            sr.sprite = replacement;
+            replacedObjects.Add(instanceID);
+            logger?.LogInfo($"[Мониторинг] Заменён спрайт: {spriteName} на объекте {sr.gameObject.name}");
+        }
+    }
+
+    // Проверка и замена конкретного Image
+    public static void TryReplaceSprite(Image img)
+    {
+        if (img == null || img.sprite == null) return;
+
+        int instanceID = img.GetInstanceID();
+        if (replacedObjects.Contains(instanceID)) return;
+
+        string spriteName = img.sprite.name;
+        Sprite replacement = GetReplacementSprite(spriteName);
+
+        if (replacement != null)
+        {
+            img.sprite = replacement;
+            replacedObjects.Add(instanceID);
+            logger?.LogInfo($"[Мониторинг] Заменён спрайт: {spriteName} на объекте {img.gameObject.name}");
+        }
+    }
+}
+
+// Патч для замены спрайтов в SpriteRenderer при установке (для динамически создаваемых объектов)
+[HarmonyPatch(typeof(SpriteRenderer), "sprite", MethodType.Setter)]
+public static class SpriteRendererPatch
+{
+    static void Prefix(SpriteRenderer __instance, ref Sprite value)
+    {
+        if (value == null) return;
+
+        string originalSpriteName = value.name;
+        Sprite replacementSprite = ImageReplacer.GetReplacementSprite(originalSpriteName);
+
+        if (replacementSprite != null)
+        {
+            value = replacementSprite;
+        }
+    }
+}
+
+// Патч для замены спрайтов в UI.Image при установке (для динамически создаваемых объектов)
+[HarmonyPatch(typeof(Image), "sprite", MethodType.Setter)]
+public static class ImageSpritePatch
+{
+    static void Prefix(Image __instance, ref Sprite value)
+    {
+        if (value == null) return;
+
+        string originalSpriteName = value.name;
+        Sprite replacementSprite = ImageReplacer.GetReplacementSprite(originalSpriteName);
+
+        if (replacementSprite != null)
+        {
+            value = replacementSprite;
+        }
     }
 }

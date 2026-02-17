@@ -1,0 +1,9 @@
+page_contents_0=page_contents_0.png
+page_tutorial_1=page_tutorial_1.png
+page_tutorial_2=page_tutorial_2.png
+page0=page0.png
+page1=page1.png
+page2=page2.png
+page3=page3.png
+page4=page4.png
+page5=page5.png
