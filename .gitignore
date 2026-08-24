@@ -1,0 +1,8 @@
+.tools/
+.vs/
+bin/
+obj/
+dist/
+*.user
+*.suo
+untranslated.txt
