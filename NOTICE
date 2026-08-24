@@ -1,0 +1,13 @@
+King of the Bridge Russian Translation
+Copyright 2025-2026 Lev Burmistrov (Mahiron-hq / lion.burmistrov)
+
+This release is based on the original King of the Bridge Russian translation:
+https://github.com/Mahiron-hq/Russifier_King_of_the_bridge
+
+The 1.0.0 release contains substantial technical changes, expanded localization
+data, regenerated rulebook graphics, and additional quality fixes. See
+CHANGELOG.md and the Git history for details.
+
+Third-party and game-derived materials are documented in
+THIRD_PARTY_NOTICES.md and are not covered by the project's Apache-2.0 license
+unless explicitly stated there.

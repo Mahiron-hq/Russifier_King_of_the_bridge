@@ -1,0 +1,19 @@
+* text=auto
+
+*.cs text eol=lf
+*.csproj text eol=lf
+*.json text eol=lf
+*.md text eol=lf
+*.ps1 text eol=lf
+*.py text eol=lf
+*.txt text eol=lf
+*.yml text eol=lf
+LICENSE text eol=lf
+NOTICE text eol=lf
+
+translation.txt text eol=lf whitespace=-blank-at-eol
+
+*.png binary
+*.otf binary
+*.psd binary
+alagard-unicode-tmp binary
