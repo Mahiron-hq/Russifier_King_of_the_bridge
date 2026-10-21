@@ -1,0 +1,374 @@
+0 MonoBehaviour Base
+ 0 PPtr<GameObject> m_GameObject
+  0 int m_FileID = 0
+  0 SInt64 m_PathID = 0
+ 1 UInt8 m_Enabled = 1
+ 0 PPtr<MonoScript> m_Script
+  0 int m_FileID = 0
+  0 SInt64 m_PathID = -2378050947708348859
+ 1 string m_Name = "MenuTable_en"
+ 0 LocaleIdentifier m_LocaleId
+  1 string m_Code = "en"
+ 0 PPtr<$SharedTableData> m_SharedData
+  0 int m_FileID = 1
+  0 SInt64 m_PathID = -4897817053584128380
+ 0 MetadataCollection m_Metadata
+  0 IMetadata m_Items
+   0 Array Array (1 items)
+    0 int size = 1
+    [0]
+     0 managedRefArrayItem data
+      0 SInt64 rid = 4407875375154331657
+ 0 TableEntryData m_TableData
+  0 Array Array (35 items)
+   0 int size = 35
+   [0]
+    0 TableEntryData data
+     0 SInt64 m_Id = 163376369664
+     1 string m_Localized = "START"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [1]
+    0 TableEntryData data
+     0 SInt64 m_Id = 292066004992
+     1 string m_Localized = "OPTIONS"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [2]
+    0 TableEntryData data
+     0 SInt64 m_Id = 473729699840
+     1 string m_Localized = "CREDITS"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [3]
+    0 TableEntryData data
+     0 SInt64 m_Id = 611378368512
+     1 string m_Localized = "QUIT"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [4]
+    0 TableEntryData data
+     0 SInt64 m_Id = 3145241300992
+     1 string m_Localized = "GAME"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [5]
+    0 TableEntryData data
+     0 SInt64 m_Id = 3200106991616
+     1 string m_Localized = "DISPLAY"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [6]
+    0 TableEntryData data
+     0 SInt64 m_Id = 3404436705280
+     1 string m_Localized = "AUDIO"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [7]
+    0 TableEntryData data
+     0 SInt64 m_Id = 3519536795648
+     1 string m_Localized = "BACK"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [8]
+    0 TableEntryData data
+     0 SInt64 m_Id = 3651112112128
+     1 string m_Localized = "SPEED CHESS MODE: {selectedOption}"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (1 items)
+        0 int size = 1
+        [0]
+         0 managedRefArrayItem data
+          0 SInt64 rid = 4407875375154331657
+   [9]
+    0 TableEntryData data
+     0 SInt64 m_Id = 4545400639488
+     1 string m_Localized = "SPEEDRUN MODE: {selectedOption}"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (1 items)
+        0 int size = 1
+        [0]
+         0 managedRefArrayItem data
+          0 SInt64 rid = 4407875375154331657
+   [10]
+    0 TableEntryData data
+     0 SInt64 m_Id = 4897449545728
+     1 string m_Localized = "WIPE SAVE FILE"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [11]
+    0 TableEntryData data
+     0 SInt64 m_Id = 6155984015360
+     1 string m_Localized = "APPLY"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [12]
+    0 TableEntryData data
+     0 SInt64 m_Id = 18584314941440
+     1 string m_Localized = "*SPEEDRUN MODE is unlocked after obtaining all rulebook pages at least once. Starting the game with this enabled overwrites your savefile!"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [13]
+    0 TableEntryData data
+     0 SInt64 m_Id = 24722192306176
+     1 string m_Localized = "FULLSCREEN: {selectedOption}"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (1 items)
+        0 int size = 1
+        [0]
+         0 managedRefArrayItem data
+          0 SInt64 rid = 4407875375154331657
+   [14]
+    0 TableEntryData data
+     0 SInt64 m_Id = 25504769740800
+     1 string m_Localized = "RESOLUTION: {selectedOption}"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (1 items)
+        0 int size = 1
+        [0]
+         0 managedRefArrayItem data
+          0 SInt64 rid = 4407875375154331657
+   [15]
+    0 TableEntryData data
+     0 SInt64 m_Id = 25654535753728
+     1 string m_Localized = "LIMIT FPS: {selectedOption}"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (1 items)
+        0 int size = 1
+        [0]
+         0 managedRefArrayItem data
+          0 SInt64 rid = 4407875375154331657
+   [16]
+    0 TableEntryData data
+     0 SInt64 m_Id = 25910686093312
+     1 string m_Localized = "VSYNC: {selectedOption}"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (1 items)
+        0 int size = 1
+        [0]
+         0 managedRefArrayItem data
+          0 SInt64 rid = 4407875375154331657
+   [17]
+    0 TableEntryData data
+     0 SInt64 m_Id = 26709361266688
+     1 string m_Localized = "MASTER: {selectedOption}"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (1 items)
+        0 int size = 1
+        [0]
+         0 managedRefArrayItem data
+          0 SInt64 rid = 4407875375154331657
+   [18]
+    0 TableEntryData data
+     0 SInt64 m_Id = 26830199164928
+     1 string m_Localized = "EFFECTS: {selectedOption}"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (1 items)
+        0 int size = 1
+        [0]
+         0 managedRefArrayItem data
+          0 SInt64 rid = 4407875375154331657
+   [19]
+    0 TableEntryData data
+     0 SInt64 m_Id = 26940761018368
+     1 string m_Localized = "AMBIENCE: {selectedOption}"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (1 items)
+        0 int size = 1
+        [0]
+         0 managedRefArrayItem data
+          0 SInt64 rid = 4407875375154331657
+   [20]
+    0 TableEntryData data
+     0 SInt64 m_Id = 28875077554176
+     1 string m_Localized = "ON"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [21]
+    0 TableEntryData data
+     0 SInt64 m_Id = 28930253623296
+     1 string m_Localized = "OFF"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [22]
+    0 TableEntryData data
+     0 SInt64 m_Id = 49403301564416
+     1 string m_Localized = "LANGUAGE: {selectedOption}"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (1 items)
+        0 int size = 1
+        [0]
+         0 managedRefArrayItem data
+          0 SInt64 rid = 4407875375154331657
+   [23]
+    0 TableEntryData data
+     0 SInt64 m_Id = 52106140422144
+     1 string m_Localized = "ENGLISH"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [24]
+    0 TableEntryData data
+     0 SInt64 m_Id = 52299200040960
+     1 string m_Localized = "DUTCH"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [25]
+    0 TableEntryData data
+     0 SInt64 m_Id = 3554045327151104
+     1 string m_Localized = "TEXT"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [26]
+    0 TableEntryData data
+     0 SInt64 m_Id = 73273375520743424
+     1 string m_Localized = "EXTRAS"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [27]
+    0 TableEntryData data
+     0 SInt64 m_Id = 73273457448083456
+     1 string m_Localized = "ACHIEVEMENTS"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [28]
+    0 TableEntryData data
+     0 SInt64 m_Id = 73544992683483136
+     1 string m_Localized = "LEADERBOARD"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [29]
+    0 TableEntryData data
+     0 SInt64 m_Id = 73545085985775616
+     1 string m_Localized = "GLOBAL"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [30]
+    0 TableEntryData data
+     0 SInt64 m_Id = 73545155778994176
+     1 string m_Localized = "FRIENDS"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [31]
+    0 TableEntryData data
+     0 SInt64 m_Id = 73561248006430720
+     1 string m_Localized = "No entries to show."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [32]
+    0 TableEntryData data
+     0 SInt64 m_Id = 75709117962412032
+     1 string m_Localized = "SCREENSHAKE: {selectedOption}"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (1 items)
+        0 int size = 1
+        [0]
+         0 managedRefArrayItem data
+          0 SInt64 rid = 4407875375154331657
+   [33]
+    0 TableEntryData data
+     0 SInt64 m_Id = 75709623996801024
+     1 string m_Localized = "VIDEO"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [34]
+    0 TableEntryData data
+     0 SInt64 m_Id = 78960613576773632
+     1 string m_Localized = "HOLD ESC TO QUIT..."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+ 0 ManagedReferencesRegistry references
+  0 int version = 2
+  0 vector RefIds
+   1 Array Array
+    0 int size = 1
+    0 ReferencedObject data
+     0 SInt64 rid = 4407875375154331657
+     0 ReferencedManagedType type
+      1 string class = "SmartFormatTag"
+      1 string ns = "UnityEngine.Localization.Metadata"
+      1 string asm = "Unity.Localization"
+     0 ReferencedObjectData data
+      0 vector m_Entries
+       1 Array Array (11 items)
+        0 int size = 11
+        [0]
+         0 SInt64 data = 3651112112128
+        [1]
+         0 SInt64 data = 4545400639488
+        [2]
+         0 SInt64 data = 24722192306176
+        [3]
+         0 SInt64 data = 25504769740800
+        [4]
+         0 SInt64 data = 25654535753728
+        [5]
+         0 SInt64 data = 25910686093312
+        [6]
+         0 SInt64 data = 26709361266688
+        [7]
+         0 SInt64 data = 26830199164928
+        [8]
+         0 SInt64 data = 26940761018368
+        [9]
+         0 SInt64 data = 49403301564416
+        [10]
+         0 SInt64 data = 75709117962412032

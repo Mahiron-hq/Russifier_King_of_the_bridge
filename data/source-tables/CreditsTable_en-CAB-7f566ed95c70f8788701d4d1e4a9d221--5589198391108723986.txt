@@ -1,0 +1,270 @@
+0 MonoBehaviour Base
+ 0 PPtr<GameObject> m_GameObject
+  0 int m_FileID = 0
+  0 SInt64 m_PathID = 0
+ 1 UInt8 m_Enabled = 1
+ 0 PPtr<MonoScript> m_Script
+  0 int m_FileID = 0
+  0 SInt64 m_PathID = -2378050947708348859
+ 1 string m_Name = "CreditsTable_en"
+ 0 LocaleIdentifier m_LocaleId
+  1 string m_Code = "en"
+ 0 PPtr<$SharedTableData> m_SharedData
+  0 int m_FileID = 1
+  0 SInt64 m_PathID = -8716094770722812614
+ 0 MetadataCollection m_Metadata
+  0 IMetadata m_Items
+   0 Array Array (1 items)
+    0 int size = 1
+    [0]
+     0 managedRefArrayItem data
+      0 SInt64 rid = 4407875574429122564
+ 0 TableEntryData m_TableData
+  0 Array Array (27 items)
+   0 int size = 27
+   [0]
+    0 TableEntryData data
+     0 SInt64 m_Id = 442863816704
+     1 string m_Localized = "You remain on the bridge..."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [1]
+    0 TableEntryData data
+     0 SInt64 m_Id = 497612066816
+     1 string m_Localized = "You crossed the bridge."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [2]
+    0 TableEntryData data
+     0 SInt64 m_Id = 540888895488
+     1 string m_Localized = "You have ascended..."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [3]
+    0 TableEntryData data
+     0 SInt64 m_Id = 583276531712
+     1 string m_Localized = "You got rid of the troll..."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [4]
+    0 TableEntryData data
+     0 SInt64 m_Id = 748041375744
+     1 string m_Localized = "But you remain on the bridge..."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [5]
+    0 TableEntryData data
+     0 SInt64 m_Id = 797987147776
+     1 string m_Localized = "After 1 attempt."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [6]
+    0 TableEntryData data
+     0 SInt64 m_Id = 1727235198976
+     1 string m_Localized = "After {attemptCount} attempts."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (1 items)
+        0 int size = 1
+        [0]
+         0 managedRefArrayItem data
+          0 SInt64 rid = 4407875574429122564
+   [7]
+    0 TableEntryData data
+     0 SInt64 m_Id = 2338135576576
+     1 string m_Localized = "hour,"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [8]
+    0 TableEntryData data
+     0 SInt64 m_Id = 3103172431872
+     1 string m_Localized = "hours,"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [9]
+    0 TableEntryData data
+     0 SInt64 m_Id = 3152744910848
+     1 string m_Localized = "minute and"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [10]
+    0 TableEntryData data
+     0 SInt64 m_Id = 3660339580928
+     1 string m_Localized = "minutes and"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [11]
+    0 TableEntryData data
+     0 SInt64 m_Id = 3747564326912
+     1 string m_Localized = "second."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [12]
+    0 TableEntryData data
+     0 SInt64 m_Id = 3825083453440
+     1 string m_Localized = "seconds."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [13]
+    0 TableEntryData data
+     0 SInt64 m_Id = 4034307919872
+     1 string m_Localized = "It took you"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [14]
+    0 TableEntryData data
+     0 SInt64 m_Id = 4238750879744
+     1 string m_Localized = "You collected a single valorite scrap."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [15]
+    0 TableEntryData data
+     0 SInt64 m_Id = 4400944615424
+     1 string m_Localized = "You collected {scrapCount} valorite scraps."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (1 items)
+        0 int size = 1
+        [0]
+         0 managedRefArrayItem data
+          0 SInt64 rid = 4407875574429122564
+   [16]
+    0 TableEntryData data
+     0 SInt64 m_Id = 4750804094976
+     1 string m_Localized = "And you did not cheat a single time."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [17]
+    0 TableEntryData data
+     0 SInt64 m_Id = 4824661594112
+     1 string m_Localized = "And you cheated one single time."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [18]
+    0 TableEntryData data
+     0 SInt64 m_Id = 4879871217664
+     1 string m_Localized = "And you cheated a total of {cheatCount} times."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (1 items)
+        0 int size = 1
+        [0]
+         0 managedRefArrayItem data
+          0 SInt64 rid = 4407875574429122564
+   [19]
+    0 TableEntryData data
+     0 SInt64 m_Id = 19446378631168
+     1 string m_Localized = "A GAME BY FINN SCHUURING"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [20]
+    0 TableEntryData data
+     0 SInt64 m_Id = 19567065534464
+     1 string m_Localized = "ADDITIONAL DESIGN\r\n\r\nILSE BAARS\r\nMERIJN TRIMBOS\r\nRANDY QUERREVELD\r"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [21]
+    0 TableEntryData data
+     0 SInt64 m_Id = 19581019983872
+     1 string m_Localized = "SPECIAL THANKS\r\n\r\nCATHY VAN DE LAAK\r\nJANDIRK VAN DINGENEN\r"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [22]
+    0 TableEntryData data
+     0 SInt64 m_Id = 19594018131968
+     1 string m_Localized = "SPECIAL THANKS\r\n\r\nFRANK SCHUURING\r\nILJA SCHUURING\r\nJOEP SCHUURING\r\nBRAM SCHUURING\r"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [23]
+    0 TableEntryData data
+     0 SInt64 m_Id = 19610669518848
+     1 string m_Localized = "SPECIAL THANKS\r\n\r\nORION KEREN PUTS\r\nDAVID KOLB\r\nJURRE DE GROOT\r\nMAXYM EBELING\r\nBENITO VAN DER ZANDEN\r"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [24]
+    0 TableEntryData data
+     0 SInt64 m_Id = 19644618215424
+     1 string m_Localized = "SPECIAL THANKS\r\n\r\nROEL VAN BROEKHOVEN\r\nKAAN WIJNAND\r\nPEPIJN BELDER\r\nJORIS BELDER\r\nMILO DAMMERS\r"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [25]
+    0 TableEntryData data
+     0 SInt64 m_Id = 19668009848832
+     1 string m_Localized = "Thank you for playing."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [26]
+    0 TableEntryData data
+     0 SInt64 m_Id = 14962634088353792
+     1 string m_Localized = "SPECIAL THANKS\n\n\nKAREL MILLENAAR\nVALENTIJN MUIJRERS\nDIMME VAN DER HOUT"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+ 0 ManagedReferencesRegistry references
+  0 int version = 2
+  0 vector RefIds
+   1 Array Array
+    0 int size = 1
+    0 ReferencedObject data
+     0 SInt64 rid = 4407875574429122564
+     0 ReferencedManagedType type
+      1 string class = "SmartFormatTag"
+      1 string ns = "UnityEngine.Localization.Metadata"
+      1 string asm = "Unity.Localization"
+     0 ReferencedObjectData data
+      0 vector m_Entries
+       1 Array Array (3 items)
+        0 int size = 3
+        [0]
+         0 SInt64 data = 4400944615424
+        [1]
+         0 SInt64 data = 1727235198976
+        [2]
+         0 SInt64 data = 4879871217664
