@@ -1,0 +1,8 @@
+# Build output.
+bin/
+obj/
+release/
+
+# Files the plugin writes next to itself while the game runs.
+untranslated.txt
+*.log
