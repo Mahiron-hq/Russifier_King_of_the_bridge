@@ -10,7 +10,7 @@ using System.IO;
 using System.Text.RegularExpressions;
 using System.Linq;
 
-[BepInPlugin("ru.translation.kingofthebridge", "Russian Translation", "0.2")]
+[BepInPlugin("ru.translation.kingofthebridge", "Russian Translation", "0.3.0")]
 public class TranslationMod : BaseUnityPlugin
 {
     private static TMP_FontAsset russianFont;
@@ -25,7 +25,7 @@ public class TranslationMod : BaseUnityPlugin
 
         Harmony harmony = new Harmony("ru.translation.kingofthebridge");
         harmony.PatchAll();
-        Logger.LogInfo("Русификатор загружен v0.2 с поддержкой замены изображений (пиксельная графика)");
+        Logger.LogInfo("Русификатор загружен v0.3.0 с поддержкой замены изображений (пиксельная графика)");
 
         Dictionary.LoadFromFile(Path.Combine(Paths.PluginPath, "translation.txt"), Logger);
 

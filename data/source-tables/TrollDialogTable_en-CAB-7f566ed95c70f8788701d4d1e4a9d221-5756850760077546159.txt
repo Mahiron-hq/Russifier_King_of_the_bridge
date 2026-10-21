@@ -1,0 +1,1666 @@
+0 MonoBehaviour Base
+ 0 PPtr<GameObject> m_GameObject
+  0 int m_FileID = 0
+  0 SInt64 m_PathID = 0
+ 1 UInt8 m_Enabled = 1
+ 0 PPtr<MonoScript> m_Script
+  0 int m_FileID = 0
+  0 SInt64 m_PathID = -2378050947708348859
+ 1 string m_Name = "TrollDialogTable_en"
+ 0 LocaleIdentifier m_LocaleId
+  1 string m_Code = "en"
+ 0 PPtr<$SharedTableData> m_SharedData
+  0 int m_FileID = 1
+  0 SInt64 m_PathID = -4257127384821027314
+ 0 MetadataCollection m_Metadata
+  0 IMetadata m_Items
+   0 Array Array (0 items)
+    0 int size = 0
+ 0 TableEntryData m_TableData
+  0 Array Array (205 items)
+   0 int size = 205
+   [0]
+    0 TableEntryData data
+     0 SInt64 m_Id = 306597879808
+     1 string m_Localized = "I thought you blinked..."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [1]
+    0 TableEntryData data
+     0 SInt64 m_Id = 379071258624
+     1 string m_Localized = "Well, well, well..."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [2]
+    0 TableEntryData data
+     0 SInt64 m_Id = 509447004160
+     1 string m_Localized = "You caught me green handed."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [3]
+    0 TableEntryData data
+     0 SInt64 m_Id = 679823826944
+     1 string m_Localized = "But you will not get past me!"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [4]
+    0 TableEntryData data
+     0 SInt64 m_Id = 729421471744
+     1 string m_Localized = "I am a troll of honor,"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [5]
+    0 TableEntryData data
+     0 SInt64 m_Id = 1209375678464
+     1 string m_Localized = "I will own up to my mistake..."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [6]
+    0 TableEntryData data
+     0 SInt64 m_Id = 1247854223360
+     1 string m_Localized = "Can you say the same?"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [7]
+    0 TableEntryData data
+     0 SInt64 m_Id = 1277747027968
+     1 string m_Localized = "Whoopsie!"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [8]
+    0 TableEntryData data
+     0 SInt64 m_Id = 1336140128256
+     1 string m_Localized = "Everybody makes mistakes right?"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [9]
+    0 TableEntryData data
+     0 SInt64 m_Id = 1350627254272
+     1 string m_Localized = "Do not tell the others!"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [10]
+    0 TableEntryData data
+     0 SInt64 m_Id = 1389181296640
+     1 string m_Localized = "We don't usually get caught!"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [11]
+    0 TableEntryData data
+     0 SInt64 m_Id = 1408999383040
+     1 string m_Localized = "I was just trying to spice things up."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [12]
+    0 TableEntryData data
+     0 SInt64 m_Id = 1505636147200
+     1 string m_Localized = "You bore me..."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [13]
+    0 TableEntryData data
+     0 SInt64 m_Id = 1531426922496
+     1 string m_Localized = "Endlessly."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [14]
+    0 TableEntryData data
+     0 SInt64 m_Id = 1582769397760
+     1 string m_Localized = "Go on then, cheat."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [15]
+    0 TableEntryData data
+     0 SInt64 m_Id = 1624641134592
+     1 string m_Localized = "All these accusations… It is a waste of my time."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [16]
+    0 TableEntryData data
+     0 SInt64 m_Id = 1657646112768
+     1 string m_Localized = "Why prolong your inevitable loss?"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [17]
+    0 TableEntryData data
+     0 SInt64 m_Id = 1680974831616
+     1 string m_Localized = "From the weakest depths…"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [18]
+    0 TableEntryData data
+     0 SInt64 m_Id = 1754668752896
+     1 string m_Localized = "You ascend…"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [19]
+    0 TableEntryData data
+     0 SInt64 m_Id = 1780472111104
+     1 string m_Localized = "To my level…"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [20]
+    0 TableEntryData data
+     0 SInt64 m_Id = 1818887741440
+     1 string m_Localized = "Oh how did that piece get here?"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [21]
+    0 TableEntryData data
+     0 SInt64 m_Id = 1862101655552
+     1 string m_Localized = "That's crazy."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [22]
+    0 TableEntryData data
+     0 SInt64 m_Id = 1879239581696
+     1 string m_Localized = "It's only a small setback."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [23]
+    0 TableEntryData data
+     0 SInt64 m_Id = 1926115123200
+     1 string m_Localized = "So, have your "revenge" now."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [24]
+    0 TableEntryData data
+     0 SInt64 m_Id = 2615646117888
+     1 string m_Localized = "Cheater cheater!"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [25]
+    0 TableEntryData data
+     0 SInt64 m_Id = 3429194293248
+     1 string m_Localized = "Did you think I was color blind?"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [26]
+    0 TableEntryData data
+     0 SInt64 m_Id = 3454561443840
+     1 string m_Localized = "Luckily we created the rulebook with colorblindness in mind,"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [27]
+    0 TableEntryData data
+     0 SInt64 m_Id = 5049038692352
+     1 string m_Localized = "I suggest you read it again."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [28]
+    0 TableEntryData data
+     0 SInt64 m_Id = 3528947425280
+     1 string m_Localized = "Hey those pawns can't move like that!"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [29]
+    0 TableEntryData data
+     0 SInt64 m_Id = 3640075509760
+     1 string m_Localized = "Did you think I wouldn't notice?"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [30]
+    0 TableEntryData data
+     0 SInt64 m_Id = 3781146730496
+     1 string m_Localized = "You know,"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [31]
+    0 TableEntryData data
+     0 SInt64 m_Id = 3854798708736
+     1 string m_Localized = "Cheater!"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [32]
+    0 TableEntryData data
+     0 SInt64 m_Id = 3821516906496
+     1 string m_Localized = "And this was too elegant!"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [33]
+    0 TableEntryData data
+     0 SInt64 m_Id = 3810230034432
+     1 string m_Localized = "I actually studied horse guys for six winters to fully digest their elegance..."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [34]
+    0 TableEntryData data
+     0 SInt64 m_Id = 3867767496704
+     1 string m_Localized = "Only he can jump!"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [35]
+    0 TableEntryData data
+     0 SInt64 m_Id = 3924864557056
+     1 string m_Localized = "I thought the drawing made that awefully clear."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [36]
+    0 TableEntryData data
+     0 SInt64 m_Id = 3961208201216
+     1 string m_Localized = "Cheating right before my very eyes..."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [37]
+    0 TableEntryData data
+     0 SInt64 m_Id = 4037867495424
+     1 string m_Localized = ""Their crown weighs them down.""
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [38]
+    0 TableEntryData data
+     0 SInt64 m_Id = 4048743325696
+     1 string m_Localized = "It even rhymes!"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [39]
+    0 TableEntryData data
+     0 SInt64 m_Id = 4085091164160
+     1 string m_Localized = "They may work out of town,"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [40]
+    0 TableEntryData data
+     0 SInt64 m_Id = 4149666668544
+     1 string m_Localized = "But that does not excuse invalid movement!"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [41]
+    0 TableEntryData data
+     0 SInt64 m_Id = 4160110485504
+     1 string m_Localized = "Now I'll defeat you!"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [42]
+    0 TableEntryData data
+     0 SInt64 m_Id = 4172848586752
+     1 string m_Localized = "That's too abstract, even for advanced troll chess."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [43]
+    0 TableEntryData data
+     0 SInt64 m_Id = 4213805965312
+     1 string m_Localized = "Frankly, I can't even comprehend what you just did."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [44]
+    0 TableEntryData data
+     0 SInt64 m_Id = 4224836984832
+     1 string m_Localized = "Let's just get this over with..."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [45]
+    0 TableEntryData data
+     0 SInt64 m_Id = 4316725796864
+     1 string m_Localized = "The queen just moved,"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [46]
+    0 TableEntryData data
+     0 SInt64 m_Id = 4358563979264
+     1 string m_Localized = "But that was not in line with troll lore."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [47]
+    0 TableEntryData data
+     0 SInt64 m_Id = 4444106809344
+     1 string m_Localized = "To think I would not notice such an obvious move."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [48]
+    0 TableEntryData data
+     0 SInt64 m_Id = 4464621150208
+     1 string m_Localized = "Uhm..."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [49]
+    0 TableEntryData data
+     0 SInt64 m_Id = 4493339549696
+     1 string m_Localized = "You know I can still see it right?"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [50]
+    0 TableEntryData data
+     0 SInt64 m_Id = 4520120180736
+     1 string m_Localized = "That piece does not work out of town!"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [51]
+    0 TableEntryData data
+     0 SInt64 m_Id = 4546695290880
+     1 string m_Localized = "And if they did, they would miss supper!"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [52]
+    0 TableEntryData data
+     0 SInt64 m_Id = 4556786786304
+     1 string m_Localized = "Unthinkable!"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [53]
+    0 TableEntryData data
+     0 SInt64 m_Id = 4589586243584
+     1 string m_Localized = "So you think you can just move the gifts over to your side..."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [54]
+    0 TableEntryData data
+     0 SInt64 m_Id = 4615456710656
+     1 string m_Localized = "Well not on my watch, you don't!"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [55]
+    0 TableEntryData data
+     0 SInt64 m_Id = 4635425792000
+     1 string m_Localized = "One..."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [56]
+    0 TableEntryData data
+     0 SInt64 m_Id = 4656485392384
+     1 string m_Localized = "Two..."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [57]
+    0 TableEntryData data
+     0 SInt64 m_Id = 4677758902272
+     1 string m_Localized = "Three..."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [58]
+    0 TableEntryData data
+     0 SInt64 m_Id = 4694263488512
+     1 string m_Localized = "I do not count three towers in the game,"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [59]
+    0 TableEntryData data
+     0 SInt64 m_Id = 4719211208704
+     1 string m_Localized = "You know what that means."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [60]
+    0 TableEntryData data
+     0 SInt64 m_Id = 4757341626368
+     1 string m_Localized = "No! No! No!"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [61]
+    0 TableEntryData data
+     0 SInt64 m_Id = 4776484429824
+     1 string m_Localized = "It goes against troll lore! She would never have an affair!"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [62]
+    0 TableEntryData data
+     0 SInt64 m_Id = 4787171516416
+     1 string m_Localized = "You play distastefully..."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [63]
+    0 TableEntryData data
+     0 SInt64 m_Id = 7777232117760
+     1 string m_Localized = "This is it! Get ready for the eleventh edition of advanced troll chess!"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [64]
+    0 TableEntryData data
+     0 SInt64 m_Id = 7857171357696
+     1 string m_Localized = "You will find the well curated rulebook to your right."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [65]
+    0 TableEntryData data
+     0 SInt64 m_Id = 7884560162816
+     1 string m_Localized = "Let the game commence!"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [66]
+    0 TableEntryData data
+     0 SInt64 m_Id = 7947923513344
+     1 string m_Localized = "..."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [67]
+    0 TableEntryData data
+     0 SInt64 m_Id = 8149317214208
+     1 string m_Localized = "I. uh-"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [68]
+    0 TableEntryData data
+     0 SInt64 m_Id = 8163774980096
+     1 string m_Localized = "I did not know I could do that."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [69]
+    0 TableEntryData data
+     0 SInt64 m_Id = 8180149542912
+     1 string m_Localized = "Forget you saw anything!"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [70]
+    0 TableEntryData data
+     0 SInt64 m_Id = 8275234414592
+     1 string m_Localized = "What?!"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [71]
+    0 TableEntryData data
+     0 SInt64 m_Id = 8424484528128
+     1 string m_Localized = "Put me back right now!"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [72]
+    0 TableEntryData data
+     0 SInt64 m_Id = 8493262725120
+     1 string m_Localized = "Get me off this chicken you cheater!"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [73]
+    0 TableEntryData data
+     0 SInt64 m_Id = 8517757460480
+     1 string m_Localized = "Don't you dare do this to me!"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [74]
+    0 TableEntryData data
+     0 SInt64 m_Id = 8550686941184
+     1 string m_Localized = "No no no!"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [75]
+    0 TableEntryData data
+     0 SInt64 m_Id = 8574317649920
+     1 string m_Localized = "We are not fading out!"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [76]
+    0 TableEntryData data
+     0 SInt64 m_Id = 8588569894912
+     1 string m_Localized = "STOP!!!"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [77]
+    0 TableEntryData data
+     0 SInt64 m_Id = 8615077896192
+     1 string m_Localized = "Don't think you can outsmart me!"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [78]
+    0 TableEntryData data
+     0 SInt64 m_Id = 8693612044288
+     1 string m_Localized = "I'll get off this animal..."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [79]
+    0 TableEntryData data
+     0 SInt64 m_Id = 8718765285376
+     1 string m_Localized = "And when I do..."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [80]
+    0 TableEntryData data
+     0 SInt64 m_Id = 8731813765120
+     1 string m_Localized = "I'll find another bridge!"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [81]
+    0 TableEntryData data
+     0 SInt64 m_Id = 9212309037056
+     1 string m_Localized = "..."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [82]
+    0 TableEntryData data
+     0 SInt64 m_Id = 9283461210112
+     1 string m_Localized = "How is there not a rule against that?"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [83]
+    0 TableEntryData data
+     0 SInt64 m_Id = 9294211211264
+     1 string m_Localized = "Oh no..."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [84]
+    0 TableEntryData data
+     0 SInt64 m_Id = 9308731891712
+     1 string m_Localized = "Don't try anything!"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [85]
+    0 TableEntryData data
+     0 SInt64 m_Id = 9399815397376
+     1 string m_Localized = "You would accuse me of cheating?"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [86]
+    0 TableEntryData data
+     0 SInt64 m_Id = 9447747903488
+     1 string m_Localized = "Well then I'll have my revenge!"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [87]
+    0 TableEntryData data
+     0 SInt64 m_Id = 9472137781248
+     1 string m_Localized = "Right now!"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [88]
+    0 TableEntryData data
+     0 SInt64 m_Id = 9483684700160
+     1 string m_Localized = "I think you're seeing things pal..."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [89]
+    0 TableEntryData data
+     0 SInt64 m_Id = 9525355110400
+     1 string m_Localized = "Such foul plays don't even enter my mind!"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [90]
+    0 TableEntryData data
+     0 SInt64 m_Id = 9576840192000
+     1 string m_Localized = "False accusation!"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [91]
+    0 TableEntryData data
+     0 SInt64 m_Id = 9607647354880
+     1 string m_Localized = "I bet you're just jealous of my game..."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [92]
+    0 TableEntryData data
+     0 SInt64 m_Id = 9635128434688
+     1 string m_Localized = "Sorry, I left my cheating pants under the bridge!"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [93]
+    0 TableEntryData data
+     0 SInt64 m_Id = 9657312108544
+     1 string m_Localized = "Instead I am wearing my victory pants!"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [94]
+    0 TableEntryData data
+     0 SInt64 m_Id = 9672772313088
+     1 string m_Localized = "I think you caught me!"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [95]
+    0 TableEntryData data
+     0 SInt64 m_Id = 9699074793472
+     1 string m_Localized = "Oh wait..."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [96]
+    0 TableEntryData data
+     0 SInt64 m_Id = 9720167948288
+     1 string m_Localized = "Wrong."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [97]
+    0 TableEntryData data
+     0 SInt64 m_Id = 9783988477952
+     1 string m_Localized = "And you accuse me of cheating?"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [98]
+    0 TableEntryData data
+     0 SInt64 m_Id = 9803101921280
+     1 string m_Localized = "Such hypocrisy."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [99]
+    0 TableEntryData data
+     0 SInt64 m_Id = 9814506233856
+     1 string m_Localized = "You just always see the worst in people, huh?"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [100]
+    0 TableEntryData data
+     0 SInt64 m_Id = 9956491812864
+     1 string m_Localized = "Perhaps next game you'll go easier on the cynicism."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [101]
+    0 TableEntryData data
+     0 SInt64 m_Id = 10339377242112
+     1 string m_Localized = "If you think capturing my king will let you pass,"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [102]
+    0 TableEntryData data
+     0 SInt64 m_Id = 10400639246336
+     1 string m_Localized = "I'd suggest you read rule eleven again."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [103]
+    0 TableEntryData data
+     0 SInt64 m_Id = 10417424850944
+     1 string m_Localized = "Ha ha!"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [104]
+    0 TableEntryData data
+     0 SInt64 m_Id = 10434315313152
+     1 string m_Localized = "Please do not perform your turn while im looking away..."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [105]
+    0 TableEntryData data
+     0 SInt64 m_Id = 10460856868864
+     1 string m_Localized = "I might not catch your stupidity!"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [106]
+    0 TableEntryData data
+     0 SInt64 m_Id = 10482482700288
+     1 string m_Localized = "I would only accuse someone of cheating if i were absolutely sure..."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [107]
+    0 TableEntryData data
+     0 SInt64 m_Id = 10507807907840
+     1 string m_Localized = "Not that I would ever cheat against you..."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [108]
+    0 TableEntryData data
+     0 SInt64 m_Id = 10532155842560
+     1 string m_Localized = "They say only the horseguy can jump..."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [109]
+    0 TableEntryData data
+     0 SInt64 m_Id = 10639194480640
+     1 string m_Localized = "But I do a mean somersault if it comes to it!"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [110]
+    0 TableEntryData data
+     0 SInt64 m_Id = 10918379937792
+     1 string m_Localized = "Just under your nose,"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [111]
+    0 TableEntryData data
+     0 SInt64 m_Id = 10960322977792
+     1 string m_Localized = "The tip of your tongue..."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [112]
+    0 TableEntryData data
+     0 SInt64 m_Id = 10991306301440
+     1 string m_Localized = "Don't take a guess,"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [113]
+    0 TableEntryData data
+     0 SInt64 m_Id = 11010243584000
+     1 string m_Localized = "That would not be fun..."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [114]
+    0 TableEntryData data
+     0 SInt64 m_Id = 11020158918656
+     1 string m_Localized = "Many an answer,"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [115]
+    0 TableEntryData data
+     0 SInt64 m_Id = 11031626145792
+     1 string m_Localized = "I look for just one..."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [116]
+    0 TableEntryData data
+     0 SInt64 m_Id = 11042585862144
+     1 string m_Localized = ". . ."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [117]
+    0 TableEntryData data
+     0 SInt64 m_Id = 11053302308864
+     1 string m_Localized = "Do you get it?"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [118]
+    0 TableEntryData data
+     0 SInt64 m_Id = 11064090058752
+     1 string m_Localized = "It's a RIDDLE."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [119]
+    0 TableEntryData data
+     0 SInt64 m_Id = 11073690820608
+     1 string m_Localized = "And I find RIDDLES soooooooooooooooooooooo boring."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [120]
+    0 TableEntryData data
+     0 SInt64 m_Id = 11089457209344
+     1 string m_Localized = "So if you wish to cross this bridge..."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [121]
+    0 TableEntryData data
+     0 SInt64 m_Id = 11105336844288
+     1 string m_Localized = "You'll have to play a game..."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [122]
+    0 TableEntryData data
+     0 SInt64 m_Id = 11117651320832
+     1 string m_Localized = "MY GAME!"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [123]
+    0 TableEntryData data
+     0 SInt64 m_Id = 11699027992576
+     1 string m_Localized = "You almost tricked me into believing you were a juggler."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [124]
+    0 TableEntryData data
+     0 SInt64 m_Id = 11760998834176
+     1 string m_Localized = "I was mistaken."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [125]
+    0 TableEntryData data
+     0 SInt64 m_Id = 11775385296896
+     1 string m_Localized = "You are clearly not a juggler."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [126]
+    0 TableEntryData data
+     0 SInt64 m_Id = 11909942763520
+     1 string m_Localized = ". . ."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [127]
+    0 TableEntryData data
+     0 SInt64 m_Id = 12748459630592
+     1 string m_Localized = "You got me..."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [128]
+    0 TableEntryData data
+     0 SInt64 m_Id = 13033370312704
+     1 string m_Localized = ". . ."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [129]
+    0 TableEntryData data
+     0 SInt64 m_Id = 13070187913216
+     1 string m_Localized = "I may not have won the game..."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [130]
+    0 TableEntryData data
+     0 SInt64 m_Id = 13083559354368
+     1 string m_Localized = "But at least i'll leave a worthy successor..."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [131]
+    0 TableEntryData data
+     0 SInt64 m_Id = 13096037408768
+     1 string m_Localized = "You..."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [132]
+    0 TableEntryData data
+     0 SInt64 m_Id = 13109253660672
+     1 string m_Localized = "Cheater."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [133]
+    0 TableEntryData data
+     0 SInt64 m_Id = 13883178246144
+     1 string m_Localized = ". . ."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [134]
+    0 TableEntryData data
+     0 SInt64 m_Id = 14076250447872
+     1 string m_Localized = "Even after all my tricks..."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [135]
+    0 TableEntryData data
+     0 SInt64 m_Id = 14082629984256
+     1 string m_Localized = "You still refused to cheat?"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [136]
+    0 TableEntryData data
+     0 SInt64 m_Id = 14091299610624
+     1 string m_Localized = "Are you some kind of idiot?"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [137]
+    0 TableEntryData data
+     0 SInt64 m_Id = 14099663052800
+     1 string m_Localized = "Why won't you do it?"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [138]
+    0 TableEntryData data
+     0 SInt64 m_Id = 14107984551936
+     1 string m_Localized = "Are you trying to teach me a lesson?"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [139]
+    0 TableEntryData data
+     0 SInt64 m_Id = 14115844677632
+     1 string m_Localized = "You can't change me..."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [140]
+    0 TableEntryData data
+     0 SInt64 m_Id = 14127379013632
+     1 string m_Localized = "You can't change me..."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [141]
+    0 TableEntryData data
+     0 SInt64 m_Id = 14136820391936
+     1 string m_Localized = "You can't change me..."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [142]
+    0 TableEntryData data
+     0 SInt64 m_Id = 14152498700288
+     1 string m_Localized = "You can't change me."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [143]
+    0 TableEntryData data
+     0 SInt64 m_Id = 14594259574784
+     1 string m_Localized = "That's the spirit!"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [144]
+    0 TableEntryData data
+     0 SInt64 m_Id = 14664589664256
+     1 string m_Localized = "Only winners cross this bridge!"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [145]
+    0 TableEntryData data
+     0 SInt64 m_Id = 14705614151680
+     1 string m_Localized = "Well of course!"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [146]
+    0 TableEntryData data
+     0 SInt64 m_Id = 15203368984576
+     1 string m_Localized = "I'd never pass up the opportunity to play my favorite game!"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [147]
+    0 TableEntryData data
+     0 SInt64 m_Id = 14769845723136
+     1 string m_Localized = "It's in our fate to dance forever!"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [148]
+    0 TableEntryData data
+     0 SInt64 m_Id = 14797205168128
+     1 string m_Localized = "But can you keep up with MY tempo?"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [149]
+    0 TableEntryData data
+     0 SInt64 m_Id = 14831514574848
+     1 string m_Localized = "Here we go."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [150]
+    0 TableEntryData data
+     0 SInt64 m_Id = 14855535353856
+     1 string m_Localized = "Again."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [151]
+    0 TableEntryData data
+     0 SInt64 m_Id = 14867606560768
+     1 string m_Localized = "Keep trying, adventurer."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [152]
+    0 TableEntryData data
+     0 SInt64 m_Id = 14895087640576
+     1 string m_Localized = "I'll kick you down."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [153]
+    0 TableEntryData data
+     0 SInt64 m_Id = 14916910604288
+     1 string m_Localized = "Every."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [154]
+    0 TableEntryData data
+     0 SInt64 m_Id = 14928793067520
+     1 string m_Localized = "Time."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [155]
+    0 TableEntryData data
+     0 SInt64 m_Id = 14958002200576
+     1 string m_Localized = "I'm suprised you haven't thrown yourself off the bridge yet. "
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [156]
+    0 TableEntryData data
+     0 SInt64 m_Id = 14975811215360
+     1 string m_Localized = "Oh well…"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [157]
+    0 TableEntryData data
+     0 SInt64 m_Id = 14987047755776
+     1 string m_Localized = "Keep trying!"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [158]
+    0 TableEntryData data
+     0 SInt64 m_Id = 15044878819328
+     1 string m_Localized = "This time, I'll share with you a secret."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [159]
+    0 TableEntryData data
+     0 SInt64 m_Id = 15077288206336
+     1 string m_Localized = "I did a lot of soul searching to get inspiration for rule twenty-three."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [160]
+    0 TableEntryData data
+     0 SInt64 m_Id = 15087778160640
+     1 string m_Localized = "Pretty cool secret huh?"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [161]
+    0 TableEntryData data
+     0 SInt64 m_Id = 15521909596160
+     1 string m_Localized = "Well that was bad."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [162]
+    0 TableEntryData data
+     0 SInt64 m_Id = 15563512897536
+     1 string m_Localized = "Let me know if you want to play again!"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [163]
+    0 TableEntryData data
+     0 SInt64 m_Id = 15573042356224
+     1 string m_Localized = "Wow you really blew last game."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [164]
+    0 TableEntryData data
+     0 SInt64 m_Id = 15582223687680
+     1 string m_Localized = "Say, I'll go easy on you next time."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [165]
+    0 TableEntryData data
+     0 SInt64 m_Id = 15675156881408
+     1 string m_Localized = "I won't even do my special move!"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [166]
+    0 TableEntryData data
+     0 SInt64 m_Id = 15704626061312
+     1 string m_Localized = "And we hadn't even gotten to the advanced part yet!"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [167]
+    0 TableEntryData data
+     0 SInt64 m_Id = 15729586364416
+     1 string m_Localized = "I'll be waiting here for your return."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [168]
+    0 TableEntryData data
+     0 SInt64 m_Id = 15747064029184
+     1 string m_Localized = "Don't be gone too long now."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [169]
+    0 TableEntryData data
+     0 SInt64 m_Id = 15776264773632
+     1 string m_Localized = "Rest up adventurer."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [170]
+    0 TableEntryData data
+     0 SInt64 m_Id = 15794220589056
+     1 string m_Localized = "I think we are gonna be here for quite some time."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [171]
+    0 TableEntryData data
+     0 SInt64 m_Id = 15824717373440
+     1 string m_Localized = "I'd say farewell, but I think we both know that you'll be back."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [172]
+    0 TableEntryData data
+     0 SInt64 m_Id = 15844216692736
+     1 string m_Localized = "Quite addicting, isn't it?"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [173]
+    0 TableEntryData data
+     0 SInt64 m_Id = 15856187236352
+     1 string m_Localized = "I feel like we are really getting to know eachother!"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [174]
+    0 TableEntryData data
+     0 SInt64 m_Id = 15872654073856
+     1 string m_Localized = "I hate it."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [175]
+    0 TableEntryData data
+     0 SInt64 m_Id = 16248778285056
+     1 string m_Localized = "Your time is up."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [176]
+    0 TableEntryData data
+     0 SInt64 m_Id = 16303815942144
+     1 string m_Localized = "And not just figuratively..."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [177]
+    0 TableEntryData data
+     0 SInt64 m_Id = 16321834672128
+     1 string m_Localized = "Oh no!"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [178]
+    0 TableEntryData data
+     0 SInt64 m_Id = 16339975036928
+     1 string m_Localized = "You were playing at such a breakneck pace..."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [179]
+    0 TableEntryData data
+     0 SInt64 m_Id = 16364025176064
+     1 string m_Localized = "Still lost though."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [180]
+    0 TableEntryData data
+     0 SInt64 m_Id = 16382027128832
+     1 string m_Localized = "You were too slow to stop me!"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [181]
+    0 TableEntryData data
+     0 SInt64 m_Id = 16408002453504
+     1 string m_Localized = "Im like the god of speed! Hercules!"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [182]
+    0 TableEntryData data
+     0 SInt64 m_Id = 16429254991872
+     1 string m_Localized = "Well would you look at that..."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [183]
+    0 TableEntryData data
+     0 SInt64 m_Id = 16474410868736
+     1 string m_Localized = "For some reason the magical hourglass is all empty..."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [184]
+    0 TableEntryData data
+     0 SInt64 m_Id = 16492324741120
+     1 string m_Localized = "We both know what that means."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [185]
+    0 TableEntryData data
+     0 SInt64 m_Id = 16837637595136
+     1 string m_Localized = "You are never crossing this bridge!"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [186]
+    0 TableEntryData data
+     0 SInt64 m_Id = 16899679739904
+     1 string m_Localized = "Here it comes! "
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [187]
+    0 TableEntryData data
+     0 SInt64 m_Id = 16937982124032
+     1 string m_Localized = "It is troll tradition to stomp bypassers in this game!"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [188]
+    0 TableEntryData data
+     0 SInt64 m_Id = 16956449644544
+     1 string m_Localized = "Here comes the troll town!"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [189]
+    0 TableEntryData data
+     0 SInt64 m_Id = 16990230568960
+     1 string m_Localized = "Get ready for my special move!"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [190]
+    0 TableEntryData data
+     0 SInt64 m_Id = 17007301386240
+     1 string m_Localized = "I'll make the sequel even harder!"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [191]
+    0 TableEntryData data
+     0 SInt64 m_Id = 17028260323328
+     1 string m_Localized = "I don't pander to "casuals"!"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [192]
+    0 TableEntryData data
+     0 SInt64 m_Id = 17046715260928
+     1 string m_Localized = "That move was really bad!"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [193]
+    0 TableEntryData data
+     0 SInt64 m_Id = 17070329192448
+     1 string m_Localized = "I'll show you how this game was meant to be played… "
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [194]
+    0 TableEntryData data
+     0 SInt64 m_Id = 17089732042752
+     1 string m_Localized = "What you're smelling right now?"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [195]
+    0 TableEntryData data
+     0 SInt64 m_Id = 17140004970496
+     1 string m_Localized = "Its the blood and sweat I poured into this game."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [196]
+    0 TableEntryData data
+     0 SInt64 m_Id = 17153388994560
+     1 string m_Localized = "My lack of bathing is a testament to my dedication!"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [197]
+    0 TableEntryData data
+     0 SInt64 m_Id = 17176210202624
+     1 string m_Localized = "And I've got plenty of other hits in the making too!"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [198]
+    0 TableEntryData data
+     0 SInt64 m_Id = 17210817404928
+     1 string m_Localized = "I'll be recognized by everyone after I release "Rock, Paper, Dragons"!"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [199]
+    0 TableEntryData data
+     0 SInt64 m_Id = 17226407632896
+     1 string m_Localized = "How I orchestrate this whole thing?"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [200]
+    0 TableEntryData data
+     0 SInt64 m_Id = 17310557954048
+     1 string m_Localized = "Magic."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [201]
+    0 TableEntryData data
+     0 SInt64 m_Id = 17325628088320
+     1 string m_Localized = "Duh."
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [202]
+    0 TableEntryData data
+     0 SInt64 m_Id = 17346159206400
+     1 string m_Localized = "Your "naive" shtick won't work on me!"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [203]
+    0 TableEntryData data
+     0 SInt64 m_Id = 17370452615168
+     1 string m_Localized = "I'll never let you win out of pity! "
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+   [204]
+    0 TableEntryData data
+     0 SInt64 m_Id = 18466336169984
+     1 string m_Localized = "What? You saw that?"
+     0 MetadataCollection m_Metadata
+      0 IMetadata m_Items
+       0 Array Array (0 items)
+        0 int size = 0
+ 0 ManagedReferencesRegistry references
+  0 int version = 2
+  0 vector RefIds
+   1 Array Array
+    0 int size = 0
