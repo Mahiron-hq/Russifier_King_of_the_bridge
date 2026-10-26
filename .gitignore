@@ -1,0 +1,14 @@
+/target/
+/build/
+/dist/
+/.venv/
+/reference/
+/mod/*/bin/
+/mod/*/obj/
+__pycache__/
+*.pyc
+*.kotb-tmp
+.vs/
+.vscode/
+.idea/
+*.user

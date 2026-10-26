@@ -1,0 +1,32 @@
+[package]
+name = "installer"
+description = "Installer of the King of the Bridge Russian translation"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+authors.workspace = true
+license.workspace = true
+repository.workspace = true
+publish = false
+
+[[bin]]
+name = "installer"
+path = "src/main.rs"
+
+[dependencies]
+anyhow.workspace = true
+eframe.workspace = true
+egui.workspace = true
+image.workspace = true
+patchset.workspace = true
+rfd.workspace = true
+sysinfo.workspace = true
+
+[dev-dependencies]
+egui_kittest.workspace = true
+
+[build-dependencies]
+winresource.workspace = true
+
+[lints]
+workspace = true

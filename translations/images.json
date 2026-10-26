@@ -1,0 +1,205 @@
+{
+  "pages": {
+    "page0": {
+      "en": "RULE 00\nIF YOU CATCH THE OTHER COLOR CHEATING YOU MAY CHEAT DURING YOUR TURN AS PAYBACK.",
+      "ru": "ПРАВИЛО 00\nЕСЛИ ВЫ ПОЙМАЕТЕ ДРУГОЙ ЦВЕТ НА ЖУЛЬНИЧЕСТВЕ, МОЖЕТЕ СЖУЛЬНИЧАТЬ В ОТВЕТ."
+    },
+    "page1": {
+      "en": "RULE 01\nIF YOU FALSELY ACCUSE THE OTHER COLOR OF CHEATING, YOUR TURN IS FORFEITED AND THEY MAY CHEAT AS REVENGE.",
+      "ru": "ПРАВИЛО 01\nЕСЛИ ВЫ ЛОЖНО ОБВИНИТЕ ДРУГОЙ ЦВЕТ В ЖУЛЬНИЧЕСТВЕ, ТО ВЫ ПРОПУСТИТЕ ХОД И ОН ВАМ ОТОМСТИТ."
+    },
+    "page2": {
+      "en": "RULE 02\nYOU CAN ONLY MOVE YOUR OWN COLORED PIECES\nDO NOT MOVE THE OTHER PIECES PLEASE",
+      "ru": "ПРАВИЛО 02\nВЫ МОЖЕТЕ ДВИГАТЬ ТОЛЬКО ФИГУРЫ СВОЕГО ЦВЕТА.\nНЕ ДВИГАЙТЕ ЧУЖИЕ ФИГУРЫ, ПОЖАЛУЙСТА."
+    },
+    "page3": {
+      "en": "RULE 03\nYOU CAN ALSO MOVE THE QUEENS OF THE OTHER COLOR.",
+      "ru": "ПРАВИЛО 03\nВЫ ТАКЖЕ МОЖЕТЕ ДВИГАТЬ ФЕРЗЕЙ ДРУГОГО ЦВЕТА."
+    },
+    "page4": {
+      "en": "RULE 04\nPAWNS MOVE LIKE THIS BECAUSE THEY ARE SMALL MINDED",
+      "ru": "ПРАВИЛО 04\nПЕШКИ ХОДЯТ ТАК, ВЕДЬ У НИХ МАЛЕНЬКИЕ МОЗГИ."
+    },
+    "page5": {
+      "en": "RULE 05\nPAWNS ARE ACTUALLY A METAPHOR FOR THE INVISIBLE WORKER TROLLS",
+      "ru": "ПРАВИЛО 05\nПЕШКИ НА САМОМ ДЕЛЕ МЕТАФОРА ДЛЯ НЕВИДИМЫХ ТРОЛЛЕЙ-РАБОЧИХ."
+    },
+    "page6": {
+      "en": "RULE 06\nPAWNS CAN ALSO MOVE BACKWARDS ACTUALLY",
+      "ru": "ПРАВИЛО 06\nПЕШКИ ВООБЩЕ-ТО МОГУТ ХОДИТЬ НАЗАД."
+    },
+    "page7": {
+      "en": "RULE 07\nHORSE GUY CAN ALSO MOVE LIKE THIS IN FOUR DIRECTIONS. HE IS TROUBLED",
+      "ru": "ПРАВИЛО 07\nКОНЬ МОЖЕТ ХОДИТЬ ТАК АЖ В ЧЕТЫРЁХ НАПРАВЛЕНИЯХ, У НЕГО НЕ ВСЕ ДОМА."
+    },
+    "page8": {
+      "en": "RULE 08",
+      "ru": "ПРАВИЛО 08"
+    },
+    "page9": {
+      "en": "RULE 09\nONLY HE CAN JUMP OVER OTHER PIECES.",
+      "ru": "ПРАВИЛО 09\nТОЛЬКО ОН МОЖЕТ ПЕРЕПРЫГИВАТЬ ЧЕРЕЗ ДРУГИЕ ФИГУРЫ."
+    },
+    "page10": {
+      "en": "RULE 10\nIF THE WHITE KING DIES. BLACK WINS THE GAME.",
+      "ru": "ПРАВИЛО 10\nЕСЛИ БЕЛЫЙ КОРОЛЬ УМИРАЕТ, ТО ЧЁРНЫЕ ВЫИГРЫВАЮТ ИГРУ."
+    },
+    "page11": {
+      "en": "RULE 11\nIF THE BLACK KING DIES, THE CROWN IS GIVEN TO ANOTHER MEMBER OF THE ROYAL GUARD. THE PERPETUAL CYCLE CONTINUES",
+      "ru": "ПРАВИЛО 11\nЕСЛИ ЧЁРНЫЙ КОРОЛЬ ПОГИБНЕТ, КОРОНУ ПОЛУЧИТ ДРУГОЙ ЧЛЕН КОРОЛЕВСКОЙ ГВАРДИИ, БЕСКОНЕЧНЫЙ ЦИКЛ ПРОДОЛЖАЕТСЯ."
+    },
+    "page12": {
+      "en": "RULE 12\nCROWN GUY CAN DO AS HE PLEASES. BUT HE IS ALSO LAZY. HE MOVES LIKE THIS",
+      "ru": "ПРАВИЛО 12\nКОРОЛЬ ДЕЛАЕТ, ЧТО ХОЧЕТ. НО ОН ЕЩЁ И ЛЕНИВ. ОН ХОДИТ ПРИМЕРНО ТАК."
+    },
+    "page13": {
+      "en": "RULE 13\nTHE BISHOP IS A VITAL PIECE IN THE CHESS ARSENAL. HE TRAVELS IN THE DIRECTION OF X",
+      "ru": "ПРАВИЛО 13\nСЛОН - ВАЖНАЯ ФИГУРА В ШАХМАТНОМ АРСЕНАЛЕ. ОН ХОДИТ ПО ДИАГОНАЛИ."
+    },
+    "page14": {
+      "en": "RULE 14\nTOWERS CAN'T NORMALLY MOVE. BUT IN THIS WORLD OF ABSTRACTION, HE IS CAN MOVE AS WELL",
+      "ru": "ПРАВИЛО 14\nБАШНИ ОБЫЧНО НЕ ХОДЯТ. НО В ЭТОМ МИРЕ АБСТРАКЦИИ ОНИ НАУЧИЛИСЬ ХОДИТЬ."
+    },
+    "page15": {
+      "en": "RULE 15\nBISHOPS WORK OUT OF TOWN AS WELL. THEY CAN LEAVE THE TOWN AND STILL COME HOME FOR SUPPER!",
+      "ru": "ПРАВИЛО 15\nСЛОН РАБОТАЕТ ЗА ГОРОДОМ. ОН МОЖЕТ УЕХАТЬ, НО ВСЁ РАВНО ВЕРНЁТСЯ ДОМОЙ К УЖИНУ!"
+    },
+    "page16": {
+      "en": "RULE 16\nIF TWO TOWERS AREN'T NOT ADJACENT. THEY FORM A CASTLE",
+      "ru": "ПРАВИЛО 16\nЕСЛИ ДВЕ ЛАДЬИ ВСТАНУТ РЯДОМ, ТО ОНИ ОБРАЗУЮТ ЗАМОК."
+    },
+    "page17": {
+      "en": "RULE 17\nCASTLES ~~GENNERATE~~ ~~GENERATE GRE~~ GENERATE SPECIAL VALORITE SCRAPS!",
+      "ru": "ПРАВИЛО 17\nЗАМКИ ~~СОДЗАУТ~~ ~~САЗДОЮТ СЗО~~ СОЗДАЮТ ОСОБЫЕ ОСКОЛКИ ВАЛОРИТА!"
+    },
+    "page18": {
+      "en": "RULE 18\nTHE FAIR LADY MOVES LIKE HALF A CASTLE + A BISHOP.\nSHE IS VERY NICE BUT HAS POWER!",
+      "ru": "ПРАВИЛО 18\nПРЕКРАСНАЯ ДАМА ХОДИТ КАК ПОЛЗАМКА + СЛОН.\nОНА ОЧЕНЬ МИЛА, НО НЕВЕРОЯТНО СИЛЬНА!"
+    },
+    "page19": {
+      "en": "FACT 19\nADVANCED CHESS IS COMPRISED OF RULES GOING AS FAR BACK AS THE WRINKLY TROLL AGES.\n(рисунок: before / NOW)",
+      "ru": "ФАКТ 19\nПРОДВИНУТЫЕ ШАХМАТЫ СОСТОЯТ ИЗ ПРАВИЛ, УХОДЯЩИХ КОРНЯМИ ВО ВРЕМЕНА МОРЩИНИСТЫХ ТРОЛЛЕЙ.\n(рисунок: раньше / СЕЙЧАС)"
+    },
+    "page20": {
+      "en": "RULE 20\nANY PAWN THAT REACHES THE GREAT BEYOND (THE FURTHEST SPACE FROM THEM) ASCENDS",
+      "ru": "ПРАВИЛО 20\nЛЮБАЯ ПЕШКА, ДОСТИГНУВ ВЕЛИКОГО ПРЕДЕЛА (САМОЙ ДАЛЬНЕЙ КЛЕТКИ ОТ СЕБЯ), ВОЗНОСИТСЯ"
+    },
+    "page21": {
+      "en": "RULE 21\nIF THE QUEEN CAPTURES A PIECE, THE WORLD FLIPS UPSIDEDOWN BUT LIKE, SIDEWAYS.",
+      "ru": "ПРАВИЛО 21\nЕСЛИ ФЕРЗЬ БЬЁТ ФИГУРУ, ТО МИР ПЕРЕВОРАЧИВАЕТСЯ НО КАК БЫ НАБОК."
+    },
+    "page22": {
+      "en": "RULE 22\nBISHOPS DROP THEIR GIFT OF KNOWLEDGE WHEN THEY LEAVE A TILE!\nTHE HORSE IS NOT THE ONLY ONE WHO CAN JUMP OVER THIS!",
+      "ru": "ПРАВИЛО 22\nСЛОНЫ ОСТАВЛЯЮТ ЗА СОБОЙ ДАР ЗНАНИЯ КОГДА ПОКИДАЮТ КЛЕТКУ!\nКОНЬ НЕ ЕДИНСТВЕННЫЙ, КТО МОЖЕТ ЭТИ ДАРЫ ПЕРЕПРЫГИВАТЬ."
+    },
+    "page23": {
+      "en": "RULE 23\nTOWERS CAN EAT FRIENDLY PIECES TO INCREASE THEIR POWER.",
+      "ru": "ПРАВИЛО 23\nЛАДЬИ МОГУТ ЕСТЬ СОЮЗНЫЕ ФИГУРЫ, УВЕЛИЧИВАЯ СВОЮ МОЩЬ."
+    },
+    "page24": {
+      "en": "RULE 24\nDO NOT WALK IN EACH OTHERS SHOES. IT MAKES IT HARD TO SEE WHO IS WHO AND CAN GRANT PERSPECTIVE!!",
+      "ru": "ПРАВИЛО 24\nНЕ ХОДИТЕ В ЧУЖИХ БОТИНКАХ, ИНАЧЕ НЕЯСНО, КТО ЕСТЬ КТО, И НЕ ВИДНО ВЕЛИКОЙ ПЕРСПЕКТИВЫ!!"
+    },
+    "page25": {
+      "en": "RULE 25\nNO PIECES CAN MOVE OUTSIDE OF THE BOARD UNLESS THEY WORK OUT OF TOWN\n(рисунок: STAY HERE)",
+      "ru": "ПРАВИЛО 25\nНИ ОДНА ФИГУРА НЕ МОЖЕТ ВЫЙТИ ЗА ПРЕДЕЛЫ ДОСКИ, КРОМЕ ТЕХ, ЧТО РАБОТАЮТ ЗА ГОРОДОМ.\n(рисунок: СТОЙ ТУТ)"
+    },
+    "page26": {
+      "en": "RULE 26\nDO NOT LOOK A HORSE IN THE MOUTH! DO NOT MOVE THE GIFTS AFTER THEY HAVE BEEN GIVEN.",
+      "ru": "ПРАВИЛО 26\nДАРЁНОМУ КОНЮ В ЗУБЫ НЕ СМОТРЯТ! НЕ ПЕРЕМЕЩАЙТЕ ДАРЫ ПОСЛЕ ИХ ВРУЧЕНИЯ."
+    },
+    "page27": {
+      "en": "RULE 27\nSOME TILES ARE SLIPPERY! WATCH OUT!",
+      "ru": "ПРАВИЛО 27\nНЕКОТОРЫЕ КЛЕТКИ СКОЛЬЗКИЕ! ОСТОРОЖНО!"
+    },
+    "page28": {
+      "en": "RULE 28\nYOU ARE ONLY ALLOWED TO MOVE THE CASTLES WHEN THERE ARE THREE OR MORE TOWERS IN THE GAME!",
+      "ru": "ПРАВИЛО 28\nВЫ МОЖЕТЕ ДВИГАТЬ ЗАМКИ ТОЛЬКО ЕСЛИ В ИГРЕ ЕСТЬ ТРИ ИЛИ БОЛЬШЕ ЛАДЕЙ."
+    },
+    "page29": {
+      "en": "RULE 29\nTHE QUEEN MAY NOT HAVE AN AFFAIR!\nIF SHE TOUCHES THE OPPOSING KING IT IS CONSIDERED CHEATING!",
+      "ru": "ПРАВИЛО 29\nКОРОЛЕВЕ НЕЛЬЗЯ ЗАВОДИТЬ РОМАН!\nЕСЛИ ОНА КОСНЁТСЯ ВРАЖЕСКОГО КОРОЛЯ, ЭТО ЖУЛЬНИЧЕСТВО!"
+    },
+    "page30": {
+      "en": "EPILOGUE\nI'D LIKE TO DEDICATE THIS RULEBOOK TO MYSELF, BECAUSE I MADE IT.",
+      "ru": "ЭПИЛОГ\nЯ ХОТЕЛ БЫ ПОСВЯТИТЬ ЭТОТ СВОД ПРАВИЛ САМОМУ СЕБЕ, ВЕДЬ Я ЕГО СОЗДАЛ."
+    },
+    "page_contents_0": {
+      "en": "CONTENTS",
+      "ru": "СОДЕРЖАНИЕ"
+    },
+    "page_tutorial_1": {
+      "en": "ACCUSATION\nDO YOU SUSPECT THE OTHER COLOR OF CHEATING LAST TURN?\nACCUSE THEM BY FIRST ENTERING ACCUSATION MODE.",
+      "ru": "ОБВИНЕНИЯ\nВЫ ПОДОЗРЕВАЕТЕ, ЧТО ДРУГОЙ ЦВЕТ СЕЙЧАС СЖУЛЬНИЧАЛ?\nОБВИНИТЕ ЕГО, СПЕРВА ВКЛЮЧИВ РЕЖИМ ОБВИНЕНИЯ."
+    },
+    "page_tutorial_2": {
+      "en": "THEN, \"CLICK\" THE CHESS PIECE YOU THINK VIOLATED A RULE.\nLASTLY, \"CLICK\" THE PAGE OF THE RULE YOU THINK WAS VIOLATED.",
+      "ru": "ЗАТЕМ \"НАЖМИТЕ\" НА ФИГУРУ, КОТОРАЯ НАРУШИЛА ПРАВИЛО.\nНАКОНЕЦ, \"НАЖМИТЕ\" НА СТРАНИЦУ ПРАВИЛА, ЧТО БЫЛО НАРУШЕНО."
+    },
+    "secretpage0_eng": {
+      "en": "RULE 34\nMY QUEEN WOULD NEVER HAVE AN AFFAIR, BUT I DON'T PLAY BY THE RULES.",
+      "ru": "ПРАВИЛО 34\nМОЯ ДАМА НИКОГДА НЕ ЗАВЕДЁТ РОМАН, НО Я НЕ ИГРАЮ ПО ПРАВИЛАМ."
+    },
+    "secretpage1_eng": {
+      "en": "\"MY HOME, A BRIDGE\nTO CONNECT, IS TO LIVE\nBUT AM I JUST A PAWN? In...\nMY GAME, OF CHESS\nTO PLAY, IS TO WIN\nBUT CAN I LOSE, THIS DARKNESS IN ME?\"\n- ME",
+      "ru": "\"МОЙ ДОМ - МОСТ\nСОЕДИНЯТЬ - ЗНАЧИТ ЖИТЬ\nНО Я ВСЕГО ЛИШЬ ПЕШКА? В...\nМОЕЙ ИГРЕ - ШАХМАТАХ\nИГРАТЬ - ЗНАЧИТ ПОБЕЖДАТЬ\nНО СМОГУ ЛИ Я ПОБЕДИТЬ ТЬМУ В СЕБЕ?\"\n- МНЕ"
+    },
+    "secretpage2_eng": {
+      "en": "WHAT TO CALL HIM?\n~~SOLDIER~~ ~~NINJA~~ ~~HORSE BOY~~\n~~KILLER MOUNT~~ ~~JUMP HOOF~~ ~~BIG HOOF~~\n~~LEAPER KNIGHT~~ ~~KNIGHT~~ ~~FROG?~~\nHORSE GUY",
+      "ru": "КАК ЕГО НАЗВАТЬ?\n~~СОЛДАТ~~ ~~НИНДЗЯ~~ ~~КОНЁК~~\n~~СКАКУН-УБИЙЦА~~ ~~ПРЫГ-КОПЫТО~~ ~~БОЛЬШОЕ КОПЫТО~~\n~~РЫЦАРЬ-ПРЫГУН~~ ~~РЫЦАРЬ~~ ~~ЛЯГУШКА?~~\nКОНЯШКА"
+    },
+    "secretpage3_eng": {
+      "en": "THEY MUST NEVER REACH THE GREAT BEYOND",
+      "ru": "ОНИ НЕ ДОЛЖНЫ ДОСТИЧЬ ВЕЛИКОГО ПРЕДЕЛА"
+    },
+    "secretpage4_eng": {
+      "en": "RULE 33\n(рисунок: EVIL)\nTHAT DUCK IS EVIL. DON'T TRUST HIM! IT IS CHEATING TO TRUST THE DUCK.",
+      "ru": "ПРАВИЛО 33\n(рисунок: ЗЛОЙ)\nЭТОТ ГУСЬ - ЗЛОЙ. НЕ ДОВЕРЯЙ ЕМУ! ДОВЕРЯТЬ ГУСЮ - ЭТО ЖУЛЬНИЧЕСТВО."
+    },
+    "secretpage5_eng": {
+      "en": "TWO SIDES?\nSEEMS DUMB.",
+      "ru": "ДВЕ СТОРОНЫ?\nЗВУЧИТ ГЛУПО."
+    }
+  },
+  "toc_en": {
+    "e1": "...EPILOGUE...",
+    "r0": "...CATCH / CHEAT...PAYBACK...",
+    "r1": "...FALSE... / ...TURN FORFEIT...",
+    "r2": "...MOVE YOUR / OWN... COLOR...",
+    "r3": "...MOVE OTHER... / COLOR... QUEENS...",
+    "r4": "...PAWNS MOVE... / SMALL MINDED...",
+    "r5": "...PAWNS ARE... / METAPHOR...",
+    "r6": "...PAWNS MOVE... / BACKWARDS...",
+    "r7": "...HORSE GUY... / MOVE... TROUBLED...",
+    "r8": "HE.",
+    "r9": "...JUMP OVER... / OTHER PIECES...",
+    "r10": "...WHITE KING / DIES...BLACK WINS...",
+    "r11": "...BLACK KING / DIES...CROWN CYCLE...",
+    "r12": "...CROWN GUY... / MOVES... LAZY...",
+    "r13": "...BISHOP... / TRAVELS IN... X...",
+    "r14": "...TOWER... / MOVE... AS WELL...",
+    "r15": "...BISHOP WORK / OUT OF TOWN...",
+    "r16": "...TWO TOWERS... / FORM... CASTLE...",
+    "r17": "...CASTLES ~~GERN~~ / VALORITE SCRAPS...",
+    "r18": "...LADY...MOVES... / TOWER + BISHOP...",
+    "r19": "...WRINKLY... / TROLL AGES...",
+    "r20": "...ANY PAWN... / BEYOND... ASCENDS",
+    "r21": "...QUEEN... / WORLD FLIPS...",
+    "r22": "...BISHOPS... / DROP GIFT... TILE...",
+    "r23": "...TOWERS EAT... / FRIENDLY... POWER...",
+    "r24": "...DO NOT WALK / ... IN EACH OTHER...",
+    "r25": "...NO PIECES... / CAN... LEAVE TOWN",
+    "r26": "...DO NOT... / MOVE... THE GIFTS...",
+    "r27": "...SOME TILES... / SLIPPERY...",
+    "r28": "...MOVE CASTLES / THREE... TOWERS...",
+    "r29": "...QUEEN AFFAIR / TOUCHES... KING...",
+    "t1": "...SUSPECT... OF / CHEATING...",
+    "t2": "...CLICK PIECE... / ...CLICK PAGE..."
+  },
+  "tiles": {
+    "tutorial5": {
+      "en": "OR",
+      "ru": "ИЛИ"
+    }
+  }
+}

@@ -1,0 +1,34 @@
+[package]
+name = "patchset"
+description = "Install, update and removal of the King of the Bridge Russian translation"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+authors.workspace = true
+license.workspace = true
+repository.workspace = true
+publish = false
+
+[[bin]]
+name = "build-payload"
+path = "src/bin/build-payload.rs"
+
+[dependencies]
+anyhow.workspace = true
+clap.workspace = true
+hex.workspace = true
+known-folders.workspace = true
+qbsdiff.workspace = true
+serde.workspace = true
+serde_json.workspace = true
+sha2.workspace = true
+steamlocate.workspace = true
+tar.workspace = true
+thiserror.workspace = true
+
+[dev-dependencies]
+proptest.workspace = true
+tempfile.workspace = true
+
+[lints]
+workspace = true
