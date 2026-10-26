@@ -1,0 +1,16 @@
+Русификатор King of the Bridge
+Copyright 2026 Lev Burmistrov (Mahiron-hq)
+
+Перевод, переведённые изображения и код распространяются на условиях лицензии
+Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (файл LICENSE).
+
+Игра King of the Bridge, её оригинальные тексты, изображения и другие материалы принадлежат
+их правообладателям и под эту лицензию не подпадают.
+
+Сторонние компоненты распространяются на условиях их авторов:
+- assets/fonts/alagard-unicode-tmp, installer/assets/alagard-cyrillic.ttf: шрифт Alagard
+  (Hewett Tsoi), кириллическая версия Alagard-12px-unicode;
+- assets/fonts/BubbleSans-Regular.otf: шрифт BubbleSans;
+- Mono.Cecil и Costura.Fody (mod/KotbPatcher), библиотеки Rust (installer, patchset).
+  Список библиотек установщика с текстами лицензий собирает tools/third_party_licenses.py,
+  установщик показывает его на странице лицензии.

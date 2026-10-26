@@ -1,0 +1,7 @@
+* text=auto eol=lf
+*.ps1 text eol=crlf
+*.png binary
+*.ico binary
+*.ttf binary
+*.otf binary
+assets/fonts/alagard-unicode-tmp binary
